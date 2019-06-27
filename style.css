@@ -1,0 +1,100 @@
+body{
+    background: url("../wk2hw/concrete_seamless.png");
+}
+.background{
+  background: white;
+  margin-top: 150px;
+  width:70%;
+  margin-bottom: 0%;
+}
+.border{
+  border-bottom: 2px solid #cccccc;
+}
+.nav-link{
+  float: right;
+  font-size: 15px;
+  color: #999;
+  margin-right:10px;
+}
+
+.navbar-brand{ 
+  float: left; 
+  margin-left: 150px;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+ 
+}
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 10px;
+  margin-top: 1 0px;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+#h1{
+  border-bottom: 2px solid #cccccc;
+  font-weight: 200;
+}
+.card-body{
+  background: #4aaaa5;
+}
+.card{
+  float: left;
+}
+.work {
+    float: left;
+
+  }
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin-top: 10px;
+  clear: both;
+}
+.contain{
+  background:lightgreen;
+  height: auto;
+
+}
+.ref{
+  align-content: stretch;
+}
+
+.imgname{
+  color:white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.footer{
+  background: #999;
+  width: 100%;
+  color:white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin-bottom: -150px;
+
+}
+#cat{
+float: left;
+}
+@media (max-width: 798px){
+  .navbar-brand{
+    width:100%;
+  }
+}
